@@ -1,0 +1,75 @@
+:root {
+    margin: 0;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+    background-image: url(images/background-germany.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+#title {
+    font-size: 40px;
+    color: rgb(214, 108, 108);
+    background-color: bisque;
+    padding: 10px 20px;
+    border-radius: 30px;
+    letter-spacing: 3px;
+    opacity: .6;
+}
+.clock-line{
+    display: flex;
+    flex-direction: row;
+    color: bisque;
+    text-transform: uppercase; 
+    letter-spacing: 3px;
+
+}
+
+.box {
+    font-size: 30px;
+    background-color: rgb(214, 108, 108);
+    border-radius: 30px;
+    margin-right: 20px;
+    opacity: .7;
+}
+.box:last-child {
+    margin-right: 0;
+}
+
+.box span {
+    display: flex;
+    width: 110px;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+#day{
+    height: 140px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.clock-line span {
+    font-size: 70px;
+}
+.clock-line .clock-text {
+    font-size: 13px;
+    height: 45px;
+}
+
+#madeby {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(183, 240, 221);
+    padding: 10px 20px;
+    border-radius: 20px;
+    opacity: .8;
+    margin-top: 50px;
+    width: 250px;
+}
