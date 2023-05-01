@@ -54,7 +54,7 @@ function updateClock() {
   minEl.innerText = currentMin;
   secEl.innerText = currentSec;
   random = Math.random() * 33;
-  random = Math.floor(random);
+  random = Math.floor(random)+1;
   updateBgImg(imgArry[random]);
 
   setTimeout(() => {
